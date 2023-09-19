@@ -259,9 +259,13 @@ input[type="range"]::-webkit-slider-thumb{
 	.song_detail #title{
 		font-size: 1.8em;
 	}
+	.left img{
+		height: 350px;
+		width: 350px;}
+		
 }
 
-@media(max-width: 500px){
+@media(max-width: 550px){
 	.main{
 		min-height: 100vh;
 		width: 100%;
@@ -298,5 +302,9 @@ input[type="range"]::-webkit-slider-thumb{
 	.right .middle button{
 		height: 62px;
 	    width: 62px;
+	}
+	.left img{
+		height: 200px;
+		width: 200px;
 	}
 }
